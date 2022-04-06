@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'Subway-Black';
+    src: url(Subway-Black.ttf)
+}
+
+@font-face {
+    font-family: 'GK_Title';
+    src: url(Title_Medium.otf)
+}
+
+nav{
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    font-family: 'Subway-Black';
+    background-color: #F5F5ED
+}
+
+h1 {
+    text-align: center;
+    color: #291C02;
+    background-color: #FBEE7A;
+    margin-top: 20px;
+    padding: 0px;
+    padding-bottom: 20px;
+}
+
+header {
+    background-color: #FBEE7A;
+
+    width: 100%;
+    height: 133px;
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    text-align: center; 
+}
+
+.topnav li a {
+    display: inline-block;
+    color: #291C02;
+    text-decoration: none;
+    height: 40px;
+    padding: 5px 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 22px;
+}
+
+.topnav a:hover {
+    border-bottom: solid 5px #f1cf558d;
+}
+
+
+.Kr{
+    margin-top: 2px;
+    font-family: 'GK_Title';
+    font-size: 14px;
+}
+
+#ice_l{
+    width: 20%;
+    position:absolute; height: 133px;
+}
+#ice_R{
+    position:absolute;  right: 0; height: 133px;
+}
+
+h2{
+    font-family: 'GK_Title';
+    color:#E2A120;
+}
+p{
+    font-family: 'GK_Title';
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: 0.5px;
+    margin-left: 8px;
+}
+
+.content{
+    font-family: 'GK_Title';
+}
+.PenguinName{
+    font-size:36px; color: #E2A120; margin-bottom: 20px;
+}
+.subPenguinName_e{
+    font-family: 'GK_Title'; margin-left: 10px; font-size: 24px; color: #e2a12098;
+}
+
+.paragraph{
+    margin-bottom: 130px;
+}
+
+.SumS1{
+    text-align: center; font-family: 'GK_Title'; font-size: 24px; margin-bottom: 12px;
+}
+.SumS2{
+    text-align: center; font-family: 'GK_Title'; font-size: 30px; margin-bottom: 140px;
+}
+.main_contents{
+    width: 78%; margin-left: 16%;
+}
+.subHeading{
+    font-family:'GK_Title'; font-size: 24px; width: 60%; margin-bottom: 10px;
+}
+.textInPar{
+    width: 62%; display: inline-block;
+}
+.imgInPar{
+    display: inline-block; margin-left: 7%;
+}
